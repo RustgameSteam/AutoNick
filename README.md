@@ -22,6 +22,7 @@
 
 ## Установка:
 1. **С помощью LoadingAddons:**
-* Создайте .lua Файл в <<lua/autorun/server/>> и впишите туда данный код: LA_LoadingAddons_From("github")
+* Создайте .lua Файл в <<lua/autorun/server/>> и впишите туда данный код: 
+* LA_LoadingAddons_From("https://raw.githubusercontent.com/RustgameSteam/RP_AutoNick/master/AutoNick/lua/autorun/server/sv_autoname.lua")
 * Для работы данного способа нужен: LoadingAddons: https://github.com/RustgameSteam/LoadingAddons
 2. **Скопируйте папку AutoNick в папку Addons/**
