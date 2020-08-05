@@ -19,3 +19,8 @@
 
 ## Хуки:
 1. **hook AutoNick_RolePlay** - Вызывается когда игрок зашел на сервер
+
+## Установка:
+1. **С помощью LoadingAddons:**
+* Установите LA_LoadingAddons_From("github")
+2. **Скопируйте папку AutoNick в папку addons**
