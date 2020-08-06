@@ -10,7 +10,7 @@ if not (file.Exists("rp", "DATA")) then file.CreateDir("rp") print("[ RP ][ Auto
 
 hook.Add("PlayerInitialSpawn", "AutoNick_RolePlay", function(Player)
 	timer.Simple(5, function()
-		if (Player:SteamName() == Player:Nick()) then
+		if (Player:Name() == Player:Nick()) then
 			RG_SetRandomName(Player, true)
 		end
 	end)
